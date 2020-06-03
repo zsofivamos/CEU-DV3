@@ -81,12 +81,13 @@ word_count_df <- read_csv("df.csv") %>%
   filter(speaker != "NO SPEAKER") %>%  
   group_by(title, speaker) %>% 
   unnest_tokens(word, script) %>%
-  count(word, sort = TRUE) %>% 
   anti_join(stop_words) %>% 
   anti_join(all_names) %>% 
   anti_join(bad_words) %>% 
   anti_join(extra_stop_words) %>% 
-  ungroup() 
+  summarise(word_count = n()) %>% 
+  ungroup() %>% 
+  arrange(-word_count)
 
 movie_stats <- merge(line_count_df, word_count_df, by = c("title", "speaker")) 
 

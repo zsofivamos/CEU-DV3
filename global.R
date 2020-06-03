@@ -83,5 +83,19 @@ return(plot)
 # }
 # 
 
+### PLOTLY ------------------------------------------------------------------------------------------------
+## read in data
 
+movie_stats <- read_csv("movie_stats.csv")
+
+
+movie_stats_plot <- movie_stats %>%
+  ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
+  geom_point() +
+  theme_bw() +
+  labs(title = "Word count per line count", x = "Word count", y = "Line count") +
+  theme(legend.title = element_blank(),
+        legend.position = "bottom")
+
+plotly_plot <- ggplotly(movie_stats_plot, tooltip = "speaker")
 
