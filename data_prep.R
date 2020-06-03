@@ -64,3 +64,30 @@ df <- df %>%
 
 write_csv(df, "word_df.csv")
 
+##### Data for plotly
+
+## scatterplot -----------------------------------------------------------------------------------------------
+line_count_df <- read_csv("df.csv") %>% 
+  filter(speaker != "NO SPEAKER") %>% 
+  group_by(title, speaker) %>% 
+  summarise(line_count = n()) %>% 
+  arrange(-line_count) %>% 
+  mutate(grouped_ranking = row_number()) %>% 
+  ungroup %>% 
+  mutate(overall_ranking = row_number())
+
+## count words
+word_count_df <- read_csv("df.csv") %>% 
+  filter(speaker != "NO SPEAKER") %>%  
+  group_by(title, speaker) %>% 
+  unnest_tokens(word, script) %>%
+  count(word, sort = TRUE) %>% 
+  anti_join(stop_words) %>% 
+  anti_join(all_names) %>% 
+  anti_join(bad_words) %>% 
+  anti_join(extra_stop_words) %>% 
+  ungroup() 
+
+movie_stats <- merge(line_count_df, word_count_df, by = c("title", "speaker")) 
+
+write_csv("movie_stats.csv")
