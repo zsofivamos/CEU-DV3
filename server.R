@@ -2,6 +2,8 @@ library(shiny)
 library(shinydashboard)
 library(data.table)
 
+source("global.R")
+
 server <- function(input, output) {
   
   ## create dropdown filter with titles

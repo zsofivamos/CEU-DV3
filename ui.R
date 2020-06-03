@@ -2,6 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(data.table)
 
+source("global.R")
 
 ui <- dashboardPage(
   dashboardHeader(title = "Movie Scripts"), 
