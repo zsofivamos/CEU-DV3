@@ -24,7 +24,7 @@ server <- function(input, output) {
   
   ## display score  
   output$imdb_score <- renderInfoBox({
-    infoBox("IMDB Score", imdb_score(), icon = icon("edit"))
+    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple")
   })
   
   ## get year based on selection
@@ -34,7 +34,7 @@ server <- function(input, output) {
   
   ## display year
   output$movie_year <- renderInfoBox({
-    infoBox("Year", movie_year(), icon = icon("calendar"))
+    infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple")
   })
   
   ## display the dataframe

@@ -1,16 +1,17 @@
 library(shiny)
 library(shinydashboard)
 library(data.table)
+library(shinythemes)
 
 source("global.R")
 
-ui <- dashboardPage(
+ui <- dashboardPage(skin = "purple",
   dashboardHeader(title = "Movie Scripts"), 
   dashboardSidebar(
     sidebarMenu(
-      menuItem("Movies", tabName = "movies"),
-      menuItem("Characters", tabName = "characters"),
-      menuItem("Other", tabName = "other")
+      menuItem("Movies", tabName = "movies", icon = icon("film")),
+      menuItem("Characters", tabName = "characters", icon = icon("users")),
+      menuItem("Other", tabName = "other", icon = icon("edit") )
     )
   ),
   dashboardBody(
