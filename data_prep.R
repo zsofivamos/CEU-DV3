@@ -4,7 +4,39 @@ library(tidyverse)
 
 ### data prep
 
-df <- read_csv("df.csv") %>% 
+df <- read_csv("df.csv") 
+
+### add year for slider input
+df$year <- case_when(
+  df$title == "The Shawshank Redemption" ~ 1994,
+  df$title == "Godfather" ~ 1972,
+  df$title == "Pulp Fiction" ~ 1994,
+  df$title == "Fight Club" ~ 1999,
+  df$title == "Forrest Gump" ~ 1994,
+  df$title == "Inception" ~ 1994,
+  df$title == "The Matrix" ~ 1999,
+  df$title == "One Flew Over the Cuckoo's Nest" ~ 1975,
+  df$title == "Seven" ~ 1995,
+  df$title == "Silence of the Lambs" ~ 1991
+)
+
+## add IMDB score
+df$score <- case_when(
+  df$title == "The Shawshank Redemption" ~ 9.2,
+  df$title == "Godfather" ~ 9.2,
+  df$title == "Pulp Fiction" ~ 8.9,
+  df$title == "Fight Club" ~ 8.8,
+  df$title == "Forrest Gump" ~ 8.8,
+  df$title == "Inception" ~ 8.7,
+  df$title == "The Matrix" ~ 8.7,
+  df$title == "One Flew Over the Cuckoo's Nest" ~ 8.7,
+  df$title == "Seven" ~ 8.6,
+  df$title == "Silence of the Lambs" ~ 8.6
+)
+
+
+## remove non-speech
+df <- df %>% 
   filter(speaker != "NO SPEAKER") %>% 
   unnest_tokens(word, script)
 
@@ -29,7 +61,6 @@ df <- df %>%
   anti_join(all_names) %>% 
   anti_join(bad_words) %>% 
   anti_join(extra_stop_words)
-
 
 write_csv(df, "word_df.csv")
 
