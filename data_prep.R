@@ -90,4 +90,4 @@ word_count_df <- read_csv("df.csv") %>%
 
 movie_stats <- merge(line_count_df, word_count_df, by = c("title", "speaker")) 
 
-write_csv("movie_stats.csv")
+write_csv(movie_stats, "movie_stats.csv")
