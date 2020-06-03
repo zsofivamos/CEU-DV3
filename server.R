@@ -4,25 +4,6 @@ library(data.table)
 
 server <- function(input, output) {
   
-  ## create menu items
-  output$movies <- renderMenu({
-   sidebarMenu(
-     menuItem("Movies")
-   ) 
-  })
-  
-  output$characters <- renderMenu({
-    sidebarMenu(
-      menuItem("Characters")
-    ) 
-  })
-  
-  output$search <- renderMenu({
-    sidebarMenu(
-      menuItem("Word Search")
-    ) 
-  })
-  
   ## create dropdown filter with titles
   output$movie_filter <- renderUI({
     selectInput('title', label = 'Choose a movie', choices = titles$title, multiple = FALSE)

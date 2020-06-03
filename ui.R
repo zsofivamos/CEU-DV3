@@ -4,23 +4,31 @@ library(data.table)
 
 
 ui <- dashboardPage(
-  dashboardHeader(), 
+  dashboardHeader(title = "Movie Scripts"), 
   dashboardSidebar(
-    sidebarMenuOutput('movies'),
-    sidebarMenuOutput('characters'),
-    sidebarMenuOutput('search')
+    sidebarMenu(
+      menuItem("Movies", tabName = "movies"),
+      menuItem("Characters", tabName = "characters"),
+      menuItem("Other", tabName = "other")
+    )
   ),
   dashboardBody(
-    
-    fluidRow(
-        box(uiOutput('movie_filter')),
-        box(infoBoxOutput('imdb_score')),
-        box(infoBoxOutput('movie_year'))
-    ),
-    
-    fluidRow(
-      box(plotOutput('word_plot'), height = 100),
-      box(dataTableOutput('my_data'), height = 100)
+    tabItems(
+      tabItem(tabName = "movies",
+        fluidRow(
+          box(width = 12, uiOutput('movie_filter'))
+        ),
+        fluidRow(
+          box(infoBoxOutput('imdb_score')),
+          box(infoBoxOutput('movie_year'))
+        ),
+        fluidRow(
+          box(plotOutput('word_plot'), height = 100),
+          box(dataTableOutput('my_data'), height = 100)
+        )
+      ),
+      tabItem(tabName = "characters"),
+      tabItem(tabName = "other")
     )
   )
 )
