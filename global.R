@@ -12,15 +12,34 @@ words_df <-read_csv("word_df.csv") %>%
   ungroup() %>% 
   mutate(overall_rank = row_number())
 
-
 titles <- data_frame(title = unique(words_df$title))
+
+years <- read_csv("word_df.csv") %>% 
+  group_by(year, title) %>% 
+  summarise(score = mean(score))
 
 ### GET FILTERED DATA ------------------------------------------------------------------------------------------
 ### this one just pulls in the word data selected by the drop down
-# 
 
+## title
 select_title <- function(filter_selection){
   return(words_df %>% filter(title == filter_selection))
+}
+
+## imdb score
+get_imdb_score <- function(filter_selection){
+  
+score <- years %>% filter(title == filter_selection)
+
+  return(score$score)
+}
+
+## year
+get_year <- function(filter_selection){
+  
+  movie_year <- years %>% filter(title == filter_selection)
+  
+  return(movie_year $year)
 }
 
 
