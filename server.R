@@ -24,7 +24,7 @@ server <- function(input, output) {
   
   ## display score  
   output$imdb_score <- renderInfoBox({
-    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "green")
+    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple")
   })
   
   ## get year based on selection
@@ -34,7 +34,7 @@ server <- function(input, output) {
   
   ## display year
   output$movie_year <- renderInfoBox({
-    infoBox("Year", movie_year(), icon = icon("calendar"), color = "green")
+    infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple")
   })
   
   ## display the dataframe
@@ -47,8 +47,20 @@ server <- function(input, output) {
     plot_popular_words(reactive_df())
   )
   
-  output$plotly_plot <- renderPlotly({
-    plotly_plot
+  ## create slider to filter word count
+  output$word_count <- renderUI({
+    sliderInput('slider', label = "Select word count", min = 1, max = max(movie_stats$word_count), value = c(min, max))
   })
+  
+  ## filter df based on slider input's values
+  character_df <- reactive({
+    df <- filter_word_count(input$slider[1], input$slider[2])
+    return(df)
+  })
+  
+  output$plotly_plot <- renderPlotly({
+    create_plotly(character_df())
+  })
+  
   
 }

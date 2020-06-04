@@ -5,7 +5,7 @@ library(shinythemes)
 
 source("global.R")
 
-ui <- dashboardPage(skin = "green",
+ui <- dashboardPage(skin = "purple",
   dashboardHeader(title = "Movie Scripts"), 
   dashboardSidebar(
     sidebarMenu(
@@ -31,6 +31,7 @@ ui <- dashboardPage(skin = "green",
       ),
       tabItem(tabName = "characters",
               fluidRow(
+                uiOutput('word_count'),
                 plotlyOutput("plotly_plot")
               )),
       tabItem(tabName = "other")

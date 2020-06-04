@@ -89,13 +89,47 @@ return(plot)
 movie_stats <- read_csv("movie_stats.csv")
 
 
-movie_stats_plot <- movie_stats %>%
-  ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
-  geom_point() +
-  theme_bw() +
-  labs(title = "Word count per line count", x = "Word count", y = "Line count") +
-  theme(legend.title = element_blank(),
-        legend.position = "bottom")
+## SLIDER INPUT
+## filter character df based on slider input
 
-plotly_plot <- ggplotly(movie_stats_plot, tooltip = "speaker")
+filter_word_count <- function(min, max) {
+  
+  df <- movie_stats %>% 
+    filter(word_count %in% min:max)
+  
+  return(df)
+  
+}
+
+## create plotly viz
+## I'm using ggplot because the available plotly colors are all very pastelly
+## and I don't like that
+
+create_plotly <- function(df) {
+  
+  plot <- df %>% 
+    ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
+    geom_point() +
+    theme_bw() +
+    labs(title = "Word count per line count", x = "Word count", y = "Line count") +
+    theme(legend.title = element_blank(),
+          legend.position = "bottom")
+  
+  plotly_plot <- ggplotly(plot, tooltip = "speaker")
+  
+  return(plotly_plot)
+}
+
+# movie_stats_plot <- movie_stats %>%
+#   ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
+#   geom_point() +
+#   theme_bw() +
+#   labs(title = "Word count per line count", x = "Word count", y = "Line count") +
+#   theme(legend.title = element_blank(),
+#         legend.position = "bottom")
+# 
+# plotly_plot <- ggplotly(movie_stats_plot, tooltip = "speaker")
+
+
+
 
