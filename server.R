@@ -24,7 +24,7 @@ server <- function(input, output) {
   
   ## display score  
   output$imdb_score <- renderInfoBox({
-    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple")
+    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "green")
   })
   
   ## get year based on selection
@@ -34,7 +34,7 @@ server <- function(input, output) {
   
   ## display year
   output$movie_year <- renderInfoBox({
-    infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple")
+    infoBox("Year", movie_year(), icon = icon("calendar"), color = "green")
   })
   
   ## display the dataframe
@@ -46,5 +46,9 @@ server <- function(input, output) {
   output$word_plot <- renderPlot(
     plot_popular_words(reactive_df())
   )
+  
+  output$plotly_plot <- renderPlotly({
+    plotly_plot
+  })
   
 }

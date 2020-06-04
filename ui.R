@@ -5,7 +5,7 @@ library(shinythemes)
 
 source("global.R")
 
-ui <- dashboardPage(skin = "purple",
+ui <- dashboardPage(skin = "green",
   dashboardHeader(title = "Movie Scripts"), 
   dashboardSidebar(
     sidebarMenu(
@@ -25,11 +25,14 @@ ui <- dashboardPage(skin = "purple",
           box(infoBoxOutput('movie_year'))
         ),
         fluidRow(
-          box(plotOutput('word_plot'), height = 100),
-          box(dataTableOutput('my_data'), height = 100)
+          box(plotOutput('word_plot')),
+          box(dataTableOutput('my_data'))
         )
       ),
-      tabItem(tabName = "characters"),
+      tabItem(tabName = "characters",
+              fluidRow(
+                plotlyOutput("plotly_plot")
+              )),
       tabItem(tabName = "other")
     )
   )
