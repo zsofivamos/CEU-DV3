@@ -69,7 +69,7 @@ write_csv(df, "word_df.csv")
 ## scatterplot -----------------------------------------------------------------------------------------------
 line_count_df <- read_csv("df.csv") %>% 
   filter(speaker != "NO SPEAKER") %>% 
-  group_by(title, speaker) %>% 
+  group_by(title, speaker, gender) %>% 
   summarise(line_count = n()) %>% 
   arrange(-line_count) %>% 
   mutate(grouped_ranking = row_number()) %>% 
@@ -79,7 +79,7 @@ line_count_df <- read_csv("df.csv") %>%
 ## count words
 word_count_df <- read_csv("df.csv") %>% 
   filter(speaker != "NO SPEAKER") %>%  
-  group_by(title, speaker) %>% 
+  group_by(title, speaker, gender) %>% 
   unnest_tokens(word, script) %>%
   anti_join(stop_words) %>% 
   anti_join(all_names) %>% 
@@ -89,6 +89,15 @@ word_count_df <- read_csv("df.csv") %>%
   ungroup() %>% 
   arrange(-word_count)
 
-movie_stats <- merge(line_count_df, word_count_df, by = c("title", "speaker")) 
+movie_stats <- merge(line_count_df, word_count_df, by = c("title", "speaker", "gender")) 
 
 write_csv(movie_stats, "movie_stats.csv")
+
+### WORD SEARCH DF
+word_search_df <- read_csv("df.csv") %>%
+  filter(speaker != "NO SPEAKER") %>%
+  unnest_tokens(word, script)
+
+write_csv(word_search_df, "word_search_df.csv")
+
+

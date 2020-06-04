@@ -24,7 +24,7 @@ server <- function(input, output) {
   
   ## display score  
   output$imdb_score <- renderInfoBox({
-    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple")
+    infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple", fill = TRUE)
   })
   
   ## get year based on selection
@@ -34,7 +34,7 @@ server <- function(input, output) {
   
   ## display year
   output$movie_year <- renderInfoBox({
-    infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple")
+    infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple", fill = TRUE)
   })
   
   ## display the dataframe
@@ -61,6 +61,31 @@ server <- function(input, output) {
   output$plotly_plot <- renderPlotly({
     create_plotly(character_df())
   })
+  
+  output$gender_plot <- renderPlot({
+    plot_gender_count(character_df())
+  })
+  
+  percentage_reactive <- reactive({
+    get_percentage(character_df())
+  })
+  
+  output$percentage <- renderValueBox({
+    valueBox(percentage_reactive(), "of characters captured", color = "purple")
+  })
+  
+  output$search_box <- renderUI(
+    textInput('search', label = "Search for a word", value = "word", placeholder = "word")
+  )
+  
+  output$search_plot <- renderPlot({
+    count_per_movie(input$search)
+  })
+  
+  output$used_by_plot <- renderPlot({
+    said_by_character(input$search)
+  })
+  
   
   
 }

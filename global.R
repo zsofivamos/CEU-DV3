@@ -54,34 +54,20 @@ plot <- df %>%
   arrange(-n) %>% 
   ggplot(aes(reorder(word, n), n)) +
   geom_col() +
+  geom_text(aes(label = n), hjust = -0.6) +
   coord_flip() +
   labs(title = paste0("Most frequent words in '", df$title, "'"), x = "", y = "Count") +
-  theme_bw()
+  theme_bw() +
+  theme(panel.border = element_blank(),
+        panel.grid = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_text(size = 12),
+        title = element_text(size = 14))
 
 return(plot)
 }
-
-# ### WORD COUNTER ------------------------------------------------------------------------------------------
-# ### this function takes a word argument and searches for all the appearances of that word in the data
-# ### it returns the count grouped by movie
-# 
-# word_count <- function(word_input){
-#   
-#  fread("df.csv") %>% 
-#     filter(speaker != "NO SPEAKER") %>% 
-#     unnest_tokens(word, script) %>%
-#     filter(word == word_input) %>% 
-#     group_by(title) %>% 
-#     count() %>% 
-#     arrange(-n) %>% 
-#     ggplot(aes(reorder(title,n), n)) +
-#     geom_col(show.legend = FALSE) +
-#     coord_flip() +
-#     labs(title = paste0("Total appearances of the word '", word_input,"'"), x="", y = "")+
-#     theme_bw()
-# 
-# }
-# 
 
 ### PLOTLY ------------------------------------------------------------------------------------------------
 ## read in data
@@ -111,25 +97,113 @@ create_plotly <- function(df) {
     ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
     geom_point() +
     theme_bw() +
-    labs(title = "Word count per line count", x = "Word count", y = "Line count") +
+    labs(title = "Characters", x = "Word count", y = "Line count") +
     theme(legend.title = element_blank(),
           legend.position = "bottom")
   
-  plotly_plot <- ggplotly(plot, tooltip = "speaker")
+  plotly_plot <- ggplotly(plot, tooltip = c("speaker"))
   
   return(plotly_plot)
 }
 
-# movie_stats_plot <- movie_stats %>%
-#   ggplot(aes(word_count, line_count, text = speaker,  color = title, size = word_count)) +
-#   geom_point() +
-#   theme_bw() +
-#   labs(title = "Word count per line count", x = "Word count", y = "Line count") +
-#   theme(legend.title = element_blank(),
-#         legend.position = "bottom")
-# 
-# plotly_plot <- ggplotly(movie_stats_plot, tooltip = "speaker")
+### Display gender count
+
+plot_gender_count <- function(df) {
+  
+  plot <- df %>% 
+    ggplot(aes(reorder(gender, -word_count), word_count, fill = gender)) + 
+    geom_col(show.legend = FALSE) +
+    labs(title = "Gender distribution", x = "", y = "Word count") +
+    theme_bw() +
+    theme(panel.grid = element_blank())
+
+  return(plot)
+}
+
+### characters captured
+## this function returns the percentage of words captured in the slidebar as a valuebox
+
+get_percentage <- function(df){
+  
+  row_count <- df %>% count()
+  total <- movie_stats %>% count()
+  
+  result <- paste0(round((row_count/total)*100, 1), "%")
+  return(result)
+  
+}
+
+# ### WORD COUNTER ------------------------------------------------------------------------------------------
+# ### this function takes a word argument and searches for all the appearances of that word in the data
+# ### it returns the count grouped by character
+
+word_search_df <- read_csv("word_search_df.csv")
 
 
+count_per_movie <- function(word_input){
+
+per_movie_plot <- word_search_df %>% 
+    filter(word == word_input) %>%
+    group_by(title) %>%
+    count() %>%
+    arrange(-n) %>%
+    ggplot(aes(reorder(title,n), n)) +
+    geom_col(show.legend = FALSE) +
+    geom_text(aes(label = n), hjust = -0.6) +
+    coord_flip() +
+    labs(title = paste0("Total appearances of the word '", word_input,"'"), x="", y = "")+
+    theme_bw() +
+    theme(panel.border = element_blank(),
+          panel.grid = element_blank(),
+          axis.ticks.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_text(size = 12),
+          title = element_text(size = 14))
+
+return(per_movie_plot)
+
+}
+
+### USED BY
+## this function returns the characters that used the searched term
+## if there are more than 15 I'll retur the first 15 only
+
+said_by_character <- function(word_input){
+  
+  character_plot_df <- word_search_df %>% 
+    filter(word == word_input) %>% 
+    group_by(title, speaker) %>% 
+    count() 
+  
+  if (count(character_plot_df) < 15){
+    
+    character_plot_df <- character_plot_df
+    
+  } else {
+    character_plot_df <- character_plot_df[1:15,]
+
+  }
+  
+  character_plot <- character_plot_df %>% 
+    ggplot(aes(reorder(speaker, n), n, fill = title))+
+    geom_col() +
+    geom_text(aes(label = n), hjust = -0.6) +
+    coord_flip() +
+    labs(title = paste0("Used by"), x="", y = "")+
+    theme_bw() +
+    theme(panel.border = element_blank(),
+          panel.grid = element_blank(),
+          axis.ticks.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_text(size = 12),
+          title = element_text(size = 14),
+          legend.position = "bottom",
+          legend.title = element_blank())
+  
+  return(character_plot)
+  
+}
 
 
