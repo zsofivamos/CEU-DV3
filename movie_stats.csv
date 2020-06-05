@@ -1,0 +1,520 @@
+title,speaker,gender,line_count,grouped_ranking,overall_ranking,word_count
+Fight Club,ALL SPACE MONKEYS,male,3,1,330,6
+Fight Club,ANGEL FACE,male,8,1,223,12
+Fight Club,ANOTHER SPACE MONKEY,male,3,1,331,4
+Fight Club,ATTENDANT,female,2,1,377,5
+Fight Club,BALD DETECTIVE,male,4,1,303,5
+Fight Club,BALDY,male,4,1,304,5
+Fight Club,BANDAGED PROPRIETOR,unclear,9,1,209,15
+Fight Club,BARTENDER,male,2,1,378,2
+Fight Club,BOB,male,33,1,93,54
+Fight Club,BOSS,male,31,1,98,47
+Fight Club,BRUISED MAN #1,male,1,1,445,1
+Fight Club,BRUISED MAN #2,male,2,1,379,2
+Fight Club,BRUISED PATRON #1,male,3,1,332,5
+Fight Club,BRUISED PATRON #2,male,2,1,380,3
+Fight Club,BRUISED PATRON 12,male,1,1,446,3
+Fight Club,BUSINESS WOMAN,female,4,1,305,5
+Fight Club,CHLOE,female,13,1,164,18
+Fight Club,COMMISSIONER JACOBS,male,5,1,277,9
+Fight Club,COP,male,3,1,333,6
+Fight Club,DESK CLERK,female,5,1,278,10
+Fight Club,DETECTIVE STERN,male,30,1,100,54
+Fight Club,DIFFERENT VOICE,unclear,1,1,448,3
+Fight Club,DOORMAN,male,10,1,199,13
+Fight Club,EVERYONE,unclear,2,1,381,1
+Fight Club,FAT MAN,male,3,1,334,4
+Fight Club,FLAT-TOP DETECTIVE,unclear,2,1,382,2
+Fight Club,FLAT-TOP,male,5,1,279,4
+Fight Club,FRECKLED SPACE MONKEY,male,7,1,236,12
+Fight Club,GOATEED MAN,male,1,1,450,1
+Fight Club,HARSH VOICE,male,1,1,451,2
+Fight Club,INTERN,male,9,1,210,19
+Fight Club,IRVINE,male,1,1,452,3
+Fight Club,JACK,male,1189,1,1,1719
+Fight Club,KITCHEN WORKERS,unclear,2,1,383,4
+Fight Club,LEADER,female,41,1,81,70
+Fight Club,LOU,male,17,1,140,13
+Fight Club,MAN,male,1,1,454,1
+Fight Club,MARLA,female,207,1,26,234
+Fight Club,MECHANIC,male,14,1,161,23
+Fight Club,OPPONENT,unclear,1,1,455,1
+Fight Club,OTHERS TOGETHER,unclear,1,1,456,1
+Fight Club,PENGUIN,unclear,1,1,457,1
+Fight Club,RAYMOND,male,11,1,187,10
+Fight Club,REDHEAD DETECTIVE,unclear,1,1,458,2
+Fight Club,REDHEAD,unclear,7,1,237,10
+Fight Club,REPORTER,female,4,1,306,6
+Fight Club,RICKY AND MECHANIC,male,3,1,335,7
+Fight Club,RICKY,male,16,1,146,23
+Fight Club,SECOND MAN,male,1,1,459,2
+Fight Club,SECURITY TFM,male,18,1,131,35
+Fight Club,SEMINARIAN,unclear,1,1,460,1
+Fight Club,SHORT SPACE MONKEY,male,2,1,384,3
+Fight Club,SPEAKER,unclear,8,1,224,12
+Fight Club,STERN,male,4,1,307,6
+Fight Club,TALL SPACE MONKEY,male,1,1,461,1
+Fight Club,TECHNICIAN #1,unclear,6,1,253,12
+Fight Club,TECHNICIAN #2,unclear,3,1,336,7
+Fight Club,TYLER,male,652,1,7,1017
+Fight Club,VALET,male,2,1,385,4
+Fight Club,VOICE,unclear,11,1,188,17
+Fight Club,WAITER,male,5,1,280,10
+Fight Club,WALTER,male,8,1,225,11
+Fight Club,WOUNDED BARTENDER,male,9,1,211,12
+Fight Club,YUPPIE,male,6,1,254,3
+Forrest Gump,1ST PLAYER,male,1,1,462,2
+Forrest Gump,1ST REPORTER,male,1,1,463,1
+Forrest Gump,1ST SOLDIER,male,2,1,386,2
+Forrest Gump,2ND PLAYER,male,1,1,464,1
+Forrest Gump,2ND REPORTER,male,2,1,387,2
+Forrest Gump,2ND WOUNDED SOLDIER,male,2,1,388,2
+Forrest Gump,3RD PLAYER,male,1,1,466,1
+Forrest Gump,3RD REPORTER,male,2,1,389,3
+Forrest Gump,ABBIE HOFFMAN,female,19,1,122,25
+Forrest Gump,AGING HIPPIE,male,11,1,189,15
+Forrest Gump,ANCHORMAN,male,32,1,95,76
+Forrest Gump,ANNOUNCER,unclear,14,1,162,36
+Forrest Gump,ARMY BUS DRIVER,male,5,1,281,9
+Forrest Gump,ASSISTANT COACH,male,2,1,390,1
+Forrest Gump,BERT,male,3,1,337,1
+Forrest Gump,BILLY,male,6,1,255,7
+Forrest Gump,BLACK PANTHER,male,1,1,467,3
+Forrest Gump,BLACK WOMAN,female,3,1,338,4
+Forrest Gump,BOB HOPE,male,2,1,391,4
+Forrest Gump,BOY #1,male,3,1,340,2
+Forrest Gump,BOY #2,male,7,1,238,7
+Forrest Gump,BOY #3,male,4,1,308,2
+Forrest Gump,BOY,male,3,1,339,3
+Forrest Gump,BUBBA & FORREST,unclear,1,1,468,2
+Forrest Gump,BUBBA AND FORREST,unclear,1,1,469,2
+Forrest Gump,BUBBA,male,84,1,58,148
+Forrest Gump,BUS DRIVER,male,3,1,341,5
+Forrest Gump,CAB DRIVER,male,1,1,470,1
+Forrest Gump,CARLA,female,18,1,132,19
+Forrest Gump,CHET HUNTLEY,male,15,1,154,42
+Forrest Gump,CLEVELAND,male,2,1,392,3
+Forrest Gump,CROWD,unclear,8,1,226,13
+Forrest Gump,DALLAS,male,1,1,471,2
+Forrest Gump,DEAN,male,2,1,393,2
+Forrest Gump,DICK CAVETT,male,6,1,256,6
+Forrest Gump,DICK CLARK,male,12,1,176,26
+Forrest Gump,DJ,male,20,1,119,44
+Forrest Gump,DOCTOR,unclear,12,1,177,11
+Forrest Gump,DRILL SERGEANT,male,25,1,113,43
+Forrest Gump,DRIVER,unclear,2,1,394,1
+Forrest Gump,EARL,male,3,1,342,7
+Forrest Gump,ELDERLY WOMAN,female,11,1,190,11
+Forrest Gump,ELVIS PRESLEY,male,3,1,343,4
+Forrest Gump,ELVIS,male,16,1,147,27
+Forrest Gump,EMCEE,male,8,1,227,19
+Forrest Gump,ERNIE,male,7,1,239,11
+Forrest Gump,FOOTBALL COACH,male,9,1,212,16
+Forrest Gump,FORREST & RECRUITS,unclear,1,1,472,1
+Forrest Gump,FORREST JR.,male,9,1,213,6
+Forrest Gump,FORREST,male,984,1,3,1396
+Forrest Gump,GIRL,female,2,1,395,1
+Forrest Gump,GOVERNOR WALLACE,male,15,1,155,30
+Forrest Gump,HIGH SCHOOL COACH,male,2,1,396,3
+Forrest Gump,HILARY,female,19,1,123,18
+Forrest Gump,ISABEL,female,4,1,309,4
+Forrest Gump,JENNY'S DAD,male,7,1,240,2
+Forrest Gump,JENNY,female,198,1,28,184
+Forrest Gump,JOHN LENNON,male,4,1,310,4
+Forrest Gump,KATZENBACH,male,10,1,200,11
+Forrest Gump,LENORE,female,18,1,133,24
+Forrest Gump,LITTLE BOY,male,2,1,397,2
+Forrest Gump,LOUISE,female,4,1,311,5
+Forrest Gump,LT. DAN,male,215,1,25,339
+Forrest Gump,LYNN MARIE,female,6,1,257,6
+Forrest Gump,MALE NURSE,male,2,1,398,3
+Forrest Gump,MAN #1,male,1,1,473,3
+Forrest Gump,MAN #2,male,2,1,399,3
+Forrest Gump,MAN #3,male,2,1,400,1
+Forrest Gump,MAN #5 :,male,3,1,344,2
+Forrest Gump,MAN WITH CANE,male,1,1,474,1
+Forrest Gump,MAN,male,11,1,191,19
+Forrest Gump,MARGO,female,4,1,312,6
+Forrest Gump,MASAI,unclear,22,1,116,44
+Forrest Gump,MILITARY RECRUITER,male,2,1,401,3
+Forrest Gump,MINISTER,unclear,5,1,282,5
+Forrest Gump,MRS. BLUE,female,3,1,345,6
+Forrest Gump,MRS. GUMP,female,91,1,53,97
+Forrest Gump,NEIL ARMSTRONG,male,4,1,313,9
+Forrest Gump,NEWSCASTER,male,18,1,134,44
+Forrest Gump,NEWSMAN,male,19,1,124,41
+Forrest Gump,NURSE,unclear,1,1,476,1
+Forrest Gump,OFFICER,male,8,1,228,10
+Forrest Gump,OLD CRONY,male,1,1,477,2
+Forrest Gump,OLD SHRIMPER,male,6,1,258,5
+Forrest Gump,OLDER BOY #1,male,7,1,241,10
+Forrest Gump,OLDER BOY #2,male,2,1,402,2
+Forrest Gump,OLDER BOY,male,1,1,478,2
+Forrest Gump,PATRONS,unclear,4,1,314,12
+Forrest Gump,POLICEMAN,male,1,1,479,1
+Forrest Gump,PRESIDENT JOHNSON,male,7,1,242,12
+Forrest Gump,PRESIDENT KENNEDY,male,8,1,229,12
+Forrest Gump,PRESIDENT NIXON,male,16,1,148,29
+Forrest Gump,PRINCIPAL,male,16,1,149,25
+Forrest Gump,RECRUIT #1,unclear,1,1,480,1
+Forrest Gump,REPORTER,male,1,1,482,1
+Forrest Gump,REVEREND,male,1,1,483,2
+Forrest Gump,RUBEN,male,3,1,346,5
+Forrest Gump,SCHOOLD BUS DRIVER,female,2,1,403,3
+Forrest Gump,SECURITY GUARD,male,4,1,315,6
+Forrest Gump,SGT. SIMS,male,5,1,283,7
+Forrest Gump,SOLDIER WITH BIG MACHINE GUN,male,1,1,484,2
+Forrest Gump,SOLDIER,male,13,1,165,18
+Forrest Gump,SONG,male,15,1,156,27
+Forrest Gump,STRONGARM,unclear,9,1,214,23
+Forrest Gump,TAXI DRIVER #2,male,2,1,404,2
+Forrest Gump,VET,male,6,1,259,1
+Forrest Gump,WESLEY,male,11,1,192,15
+Forrest Gump,WHITE WOMAN,female,3,1,347,6
+Forrest Gump,WILD-EYED MAN,male,6,1,260,5
+Forrest Gump,YOUNG HIPPIE,male,3,1,348,2
+Forrest Gump,YOUNG MAN,male,12,1,178,10
+Forrest Gump,YOUNG PRIVATE,male,2,1,405,1
+Godfather,APPOLONIA,female,5,1,284,10
+Godfather,BARZINI,male,26,1,108,45
+Godfather,BONASERA,male,60,1,65,91
+Godfather,BRUNO,male,1,1,487,2
+Godfather,BUTTON MAN,male,3,1,349,3
+Godfather,CALO,male,9,1,215,15
+Godfather,CARLO,male,25,1,114,35
+Godfather,CLEMENZA,male,144,1,37,233
+Godfather,CONNIE,female,55,1,67,72
+Godfather,COP,male,1,1,488,1
+Godfather,DETECTIVE,unclear,3,1,350,6
+Godfather,DON CORLEONE,male,370,1,17,517
+Godfather,DON TOMMASSINO,male,32,1,96,38
+Godfather,DON ZALUCHI,male,27,1,106,41
+Godfather,DRIVER,male,3,1,351,5
+Godfather,ENZO,male,6,1,261,9
+Godfather,FABRIZZIO,male,42,1,77,69
+Godfather,FREDO,male,31,1,99,46
+Godfather,GENCO,male,15,1,157,27
+Godfather,GIRL,female,6,1,262,8
+Godfather,HAGEN,male,261,1,20,364
+Godfather,JOHNNY,male,20,1,120,34
+Godfather,KAY,female,92,1,51,73
+Godfather,LAMPONE,male,3,1,352,3
+Godfather,LUCA,male,13,1,166,21
+Godfather,LUCY,female,1,1,489,1
+Godfather,MAMA,female,25,1,115,27
+Godfather,MAN #2,male,2,1,406,5
+Godfather,MAN,male,6,1,263,5
+Godfather,MCCLUSKEY,male,29,1,103,48
+Godfather,MICHAEL,male,460,1,12,589
+Godfather,MOE,male,36,1,87,55
+Godfather,MRS. BONASERA,female,1,1,490,1
+Godfather,NAZORINE,male,13,1,167,23
+Godfather,NERI,male,9,1,216,8
+Godfather,NURSE,female,13,1,168,19
+Godfather,OFFICE MANAGER,unclear,1,1,491,3
+Godfather,PAULIE,male,19,1,125,28
+Godfather,PRIEST,male,11,1,193,21
+Godfather,SANDRA,female,5,1,285,2
+Godfather,SOLLOZZO,male,112,1,45,165
+Godfather,SONNY,male,233,1,24,337
+Godfather,TATTAGLIA,male,7,1,243,12
+Godfather,TESSIO,male,51,1,69,82
+Godfather,VITELLI,male,15,1,158,19
+Godfather,VOICE,unclear,9,1,217,9
+Godfather,WOLTZ,unclear,53,1,68,93
+Godfather,WOMAN,female,2,1,407,2
+Inception,ARIADNE,female,284,1,19,286
+Inception,ARTHUR,male,256,1,21,319
+Inception,ATTENDANT,unclear,3,1,353,1
+Inception,BLONDE,female,6,1,264,8
+Inception,BROWNING,male,67,1,64,88
+Inception,CAB DRIVER,male,2,1,408,2
+Inception,CHILDRENS,unclear,2,1,409,3
+Inception,COBB,male,989,1,2,1258
+Inception,EAMES,male,172,1,33,240
+Inception,ELDERLY BALD MAN,male,4,1,316,3
+Inception,ELDERLY JAPANESE MAN,male,9,1,218,12
+Inception,FATHER,male,5,1,286,6
+Inception,FISCHER,male,104,1,47,124
+Inception,FLIGHT ATTENDANT,female,6,1,265,13
+Inception,GRANDMA,female,1,1,492,4
+Inception,JAMES,male,5,1,287,3
+Inception,LAWYER,male,3,1,354,5
+Inception,LITTLE GIRL,female,2,1,410,1
+Inception,MAL,female,137,1,39,161
+Inception,MILES,male,34,1,91,35
+Inception,NASH,male,7,1,244,7
+Inception,PHILIPPA,female,1,1,493,2
+Inception,SAITO,male,150,1,35,220
+Inception,SECURITY GUARD,male,2,1,411,1
+Inception,TODASHI,unclear,1,1,495,1
+Inception,YUSUF,male,88,1,56,134
+One Flew Over the Cuckoo's Nest,ACUTES,unclear,18,1,135,29
+One Flew Over the Cuckoo's Nest,AIDE,female,4,1,317,4
+One Flew Over the Cuckoo's Nest,ATTENDANT,unclear,1,1,496,1
+One Flew Over the Cuckoo's Nest,BANCINI,male,16,1,150,32
+One Flew Over the Cuckoo's Nest,BIG NURSE,female,327,1,18,414
+One Flew Over the Cuckoo's Nest,BILLY,male,102,1,48,105
+One Flew Over the Cuckoo's Nest,BROMDEN,male,12,1,179,15
+One Flew Over the Cuckoo's Nest,CANDY AND ROSE,unclear,1,1,497,2
+One Flew Over the Cuckoo's Nest,CANDY,female,26,1,109,25
+One Flew Over the Cuckoo's Nest,CHESWICK,male,40,1,83,38
+One Flew Over the Cuckoo's Nest,CHESWTCK,male,4,1,318,5
+One Flew Over the Cuckoo's Nest,DEPUTY SHERIFF,male,3,1,355,2
+One Flew Over the Cuckoo's Nest,DOCTOR,male,5,1,288,6
+One Flew Over the Cuckoo's Nest,FREDRICKSON,male,29,1,104,32
+One Flew Over the Cuckoo's Nest,HARDING,male,168,1,34,239
+One Flew Over the Cuckoo's Nest,MAN,male,3,1,356,2
+One Flew Over the Cuckoo's Nest,MARTINI AND SCANLON,unclear,2,1,413,3
+One Flew Over the Cuckoo's Nest,MARTINI,male,41,1,82,38
+One Flew Over the Cuckoo's Nest,MCMURPHY,male,817,1,4,1158
+One Flew Over the Cuckoo's Nest,MILLER,male,2,1,414,2
+One Flew Over the Cuckoo's Nest,MISS PILBOW,female,17,1,141,20
+One Flew Over the Cuckoo's Nest,NIGHT SUPERVISOR,unclear,13,1,169,12
+One Flew Over the Cuckoo's Nest,NURSE ITSU,female,10,1,201,7
+One Flew Over the Cuckoo's Nest,NURSE PILBOW,female,13,1,170,17
+One Flew Over the Cuckoo's Nest,NURSE,female,1,1,499,1
+One Flew Over the Cuckoo's Nest,OLD VEGETABLE,male,1,1,500,1
+One Flew Over the Cuckoo's Nest,PATIENT,unclear,2,1,415,2
+One Flew Over the Cuckoo's Nest,PATIENTS,unclear,3,1,357,2
+One Flew Over the Cuckoo's Nest,PHOTOGRAPHER,unclear,1,1,501,1
+One Flew Over the Cuckoo's Nest,ROSE,female,60,1,66,75
+One Flew Over the Cuckoo's Nest,RUCKLY,male,1,1,502,3
+One Flew Over the Cuckoo's Nest,SCANLON,male,26,1,110,30
+One Flew Over the Cuckoo's Nest,SECOND DEPUTY,unclear,2,1,416,2
+One Flew Over the Cuckoo's Nest,SECOND VOICE,unclear,3,1,358,4
+One Flew Over the Cuckoo's Nest,SEFELT,male,43,1,76,52
+One Flew Over the Cuckoo's Nest,SHANKLE,unclear,5,1,289,6
+One Flew Over the Cuckoo's Nest,SPIVEY,male,90,1,55,102
+One Flew Over the Cuckoo's Nest,TABER,male,42,1,78,43
+One Flew Over the Cuckoo's Nest,THREE ATTENDANTS,unclear,1,1,504,2
+One Flew Over the Cuckoo's Nest,TURKLE,male,84,1,59,122
+One Flew Over the Cuckoo's Nest,VOICE,unclear,1,1,505,2
+One Flew Over the Cuckoo's Nest,WARREN,male,3,1,359,5
+One Flew Over the Cuckoo's Nest,WASHINGTON'S POV,male,2,1,417,3
+One Flew Over the Cuckoo's Nest,WASHINGTON AND WARREN,unclear,2,1,418,2
+One Flew Over the Cuckoo's Nest,WASHINGTON,male,38,1,86,59
+Pulp Fiction,BRETT,male,32,1,97,15
+Pulp Fiction,BUDDY,male,8,1,230,16
+Pulp Fiction,BUTCH,male,250,1,23,356
+Pulp Fiction,CAPT. KOONS,male,81,1,60,164
+Pulp Fiction,ED SULLIVAN,male,17,1,142,25
+Pulp Fiction,ENGLISH DAVE,male,18,1,136,25
+Pulp Fiction,ESMARELDA,female,30,1,101,34
+Pulp Fiction,FABIENNE,female,143,1,38,198
+Pulp Fiction,FOURTH MAN,male,2,1,419,5
+Pulp Fiction,GAWKER #1,female,1,1,506,2
+Pulp Fiction,GAWKER #2,female,5,1,290,8
+Pulp Fiction,HONEY BUNNY,female,18,1,137,20
+Pulp Fiction,JIMMIE,male,72,1,63,109
+Pulp Fiction,JODY,female,39,1,84,59
+Pulp Fiction,JULES,male,594,1,8,904
+Pulp Fiction,KLONDIKE,male,1,1,507,1
+Pulp Fiction,LANCE AND VINCENT,unclear,1,1,508,1
+Pulp Fiction,LANCE,male,122,1,43,182
+Pulp Fiction,LOOKY-LOO WOMAN,female,1,1,509,2
+Pulp Fiction,MANAGER,unclear,13,1,171,8
+Pulp Fiction,MARSELLUS,male,80,1,61,120
+Pulp Fiction,MARVIN,male,2,1,420,1
+Pulp Fiction,MAYNARD,male,35,1,89,44
+Pulp Fiction,MIA,female,193,1,30,302
+Pulp Fiction,MOTHER,female,6,1,266,16
+Pulp Fiction,PATRON,unclear,1,1,510,2
+Pulp Fiction,PEDESTRIAN,female,1,1,511,1
+Pulp Fiction,PREACHER,male,1,1,512,4
+Pulp Fiction,PUMPKIN,male,49,1,72,54
+Pulp Fiction,RAQUEL,female,9,1,219,12
+Pulp Fiction,ROGER,male,1,1,513,1
+Pulp Fiction,SPORTSCASTER #1,male,10,1,202,21
+Pulp Fiction,SPORTSCASTER #2,male,12,1,180,26
+Pulp Fiction,THE GIMP,male,1,1,514,1
+Pulp Fiction,THE WOLF,male,183,1,32,321
+Pulp Fiction,TRUDI,female,4,1,319,5
+Pulp Fiction,VINCENT,male,496,1,11,670
+Pulp Fiction,WAITRESS,female,2,1,421,4
+Pulp Fiction,WINSTON,male,19,1,126,34
+Pulp Fiction,YOLANDA,female,5,1,291,6
+Pulp Fiction,YOUNG MAN,male,112,1,46,201
+Pulp Fiction,YOUNG WOMAN,female,33,1,94,38
+Pulp Fiction,ZED,male,13,1,172,14
+Seven,ANOTHER COP,male,1,1,516,2
+Seven,BARKER,male,4,1,320,5
+Seven,BEARDSLEY,male,13,1,173,29
+Seven,BLACK COP,male,1,1,517,3
+Seven,BLEEKER,unclear,50,1,71,84
+Seven,CALIFORNIA,male,28,1,105,36
+Seven,CAPTAIN,male,85,1,57,129
+Seven,CHRIS,male,2,1,422,2
+Seven,CLERK,unclear,1,1,519,1
+Seven,COP,male,4,1,321,7
+Seven,CRAZED MAN,male,15,1,159,16
+Seven,DAVIS,male,10,1,203,17
+Seven,DETECTIVE,unclear,7,1,245,12
+Seven,FAT MAN,male,2,1,423,3
+Seven,FEMALE COP,female,2,1,424,1
+Seven,FIRST THUG,male,3,1,360,4
+Seven,FORENSIC,male,4,1,322,5
+Seven,JOHN DOE,male,118,1,44,200
+Seven,JOHN,male,5,1,292,3
+Seven,MAN,male,12,1,181,17
+Seven,MILLS,male,560,1,10,747
+Seven,MRS GOLD,female,9,1,220,7
+Seven,NUN,female,2,1,427,2
+Seven,O'NEILL,male,7,1,246,14
+Seven,OFFICER,male,7,1,247,17
+Seven,OLD MAN,male,1,1,521,2
+Seven,ONE COP,male,2,1,428,4
+Seven,ONE FORENSIC,male,3,1,361,6
+Seven,PHOTOGRAPHER,unclear,1,1,522,2
+Seven,PILOT,male,3,1,362,4
+Seven,POLICEMAN,male,1,1,523,1
+Seven,PREACHER,male,6,1,267,12
+Seven,REPORTER,female,3,1,363,7
+Seven,SANTIAGO,male,26,1,111,36
+Seven,SARA,female,2,1,429,2
+Seven,SARAH,female,5,1,293,8
+Seven,SECOND THUG,male,2,1,431,2
+Seven,SERGEANT,male,1,1,524,1
+Seven,SKETCH ARTIST,female,4,1,323,8
+Seven,SOMERSET,male,689,1,6,1027
+Seven,STONE,male,11,1,194,13
+Seven,STRANGE MAN,male,5,1,294,10
+Seven,SWARR,male,27,1,107,51
+Seven,TALBOT,male,16,1,151,22
+Seven,TAYLOR,male,17,1,143,25
+Seven,TECHNICIAN,unclear,3,1,364,7
+Seven,TRACY,female,125,1,41,164
+Seven,VAGRANT,female,2,1,432,6
+Seven,WILD BILL,male,12,1,182,23
+Seven,WILLIAM,male,45,1,75,78
+Seven,WOMAN,female,4,1,324,3
+Silence of the Lambs,2ND TV ANCHOR,unclear,5,1,295,11
+Silence of the Lambs,A COP,male,1,1,527,1
+Silence of the Lambs,ARDELIA,female,42,1,79,70
+Silence of the Lambs,ATTENDANT,male,6,1,268,14
+Silence of the Lambs,BARNEY,male,6,1,269,9
+Silence of the Lambs,BOYLE,male,12,1,183,19
+Silence of the Lambs,BRIGHAM,male,36,1,88,69
+Silence of the Lambs,BURKE,male,16,1,152,30
+Silence of the Lambs,BURROUGHS,male,2,1,433,2
+Silence of the Lambs,CATHERINE,female,51,1,70,77
+Silence of the Lambs,CHILTON,male,132,1,40,232
+Silence of the Lambs,CLARICE,female,565,1,9,791
+Silence of the Lambs,CODY,male,1,1,528,3
+Silence of the Lambs,CRAWFORD,male,400,1,16,617
+Silence of the Lambs,DARK FIGURE,unclear,1,1,529,1
+Silence of the Lambs,DIRECTOR BURKE,male,17,1,144,29
+Silence of the Lambs,DR. AKIN,male,6,1,270,9
+Silence of the Lambs,DR. DANIELSON,unclear,22,1,117,35
+Silence of the Lambs,DR. LECTER,male,423,1,14,638
+Silence of the Lambs,FOREMAN,male,7,1,248,8
+Silence of the Lambs,INSTRUCTOR,male,14,1,163,26
+Silence of the Lambs,JACOBS,female,2,1,434,3
+Silence of the Lambs,KRENDLER,male,42,1,80,61
+Silence of the Lambs,LAMAR,male,17,1,145,30
+Silence of the Lambs,MAN,male,6,1,271,5
+Silence of the Lambs,MIGGS,male,2,1,435,5
+Silence of the Lambs,MR. BIMMEL,male,11,1,195,17
+Silence of the Lambs,MR. GUMB,male,49,1,73,65
+Silence of the Lambs,MR. YOW,male,19,1,127,34
+Silence of the Lambs,MURRAY,male,10,1,204,17
+Silence of the Lambs,ORDERLY,male,1,1,530,1
+Silence of the Lambs,PEMBRY,male,16,1,153,29
+Silence of the Lambs,PETERSON,unclear,7,1,249,9
+Silence of the Lambs,PILCHER,male,19,1,128,40
+Silence of the Lambs,RADIO VOICE,unclear,3,1,365,4
+Silence of the Lambs,RODEN,male,20,1,121,41
+Silence of the Lambs,SEN. MARTIN,female,35,1,90,45
+Silence of the Lambs,SGT. TATE,male,49,1,74,94
+Silence of the Lambs,SHERIFF,male,12,1,184,20
+Silence of the Lambs,STACY,female,26,1,112,46
+Silence of the Lambs,SWAT COMMANDER,male,3,1,366,7
+Silence of the Lambs,TV ANCHOR,unclear,22,1,118,49
+The Matrix,AGENT BROWN,male,11,1,196,10
+The Matrix,AGENT JONES,male,18,1,138,19
+The Matrix,AGENT SMITH,male,191,1,31,273
+The Matrix,ANTHONY,male,13,1,174,14
+The Matrix,APOC,male,11,1,197,2
+The Matrix,BIG COP,male,4,1,325,6
+The Matrix,BOY,male,2,1,436,1
+The Matrix,CABLE,male,6,1,272,6
+The Matrix,COP,male,4,1,326,4
+The Matrix,CYPHER,male,147,1,36,177
+The Matrix,DOZER,male,6,1,273,6
+The Matrix,DUJOUR,female,5,1,296,2
+The Matrix,FEDEX,male,1,1,532,2
+The Matrix,FRIEND #1,unclear,1,1,533,3
+The Matrix,GIZMO,unclear,30,1,102,36
+The Matrix,LIEUTENANT,male,8,1,231,8
+The Matrix,MAN,male,4,1,327,1
+The Matrix,MOJO,unclear,6,1,274,8
+The Matrix,MOMMY,female,3,1,367,3
+The Matrix,MORPHEUS,male,412,1,15,506
+The Matrix,MOUSE,male,12,1,185,6
+The Matrix,NEO,male,252,1,22,197
+The Matrix,ORACLE,female,39,1,85,43
+The Matrix,PILOT,male,1,1,535,2
+The Matrix,PRIESTESS,female,5,1,297,3
+The Matrix,RADIO,unclear,2,1,437,4
+The Matrix,REX,male,1,1,536,1
+The Matrix,RHINEHEART,male,18,1,139,24
+The Matrix,SCREEN,unclear,34,1,92,69
+The Matrix,SERGEANT,male,6,1,275,10
+The Matrix,SPOON BOY,male,7,1,250,11
+The Matrix,SWITCH,female,3,1,368,4
+The Matrix,TALL EMPLOYEE,unclear,3,1,369,1
+The Matrix,TANK,male,124,1,42,149
+The Matrix,TRINITY,female,204,1,27,151
+The Matrix,VOICE,unclear,3,1,370,2
+The Matrix,WOMAN,female,3,1,371,4
+The Shawshank Redemption,ANDY,male,451,1,13,690
+The Shawshank Redemption,BLATCH,male,15,1,160,27
+The Shawshank Redemption,BOB,male,3,1,372,5
+The Shawshank Redemption,BOGS,male,19,1,129,21
+The Shawshank Redemption,BROOKS,male,94,1,50,177
+The Shawshank Redemption,CHAPLAIN,unclear,3,1,373,8
+The Shawshank Redemption,CON,male,3,1,374,8
+The Shawshank Redemption,D.A.,male,92,1,52,175
+The Shawshank Redemption,DEKINS,male,7,1,251,13
+The Shawshank Redemption,DOCTOR,unclear,1,1,537,1
+The Shawshank Redemption,ELDERLY GUARD,male,2,1,438,3
+The Shawshank Redemption,ERNIE,male,4,1,328,4
+The Shawshank Redemption,FAT-ASS,male,5,1,298,5
+The Shawshank Redemption,FLOYD,male,19,1,130,29
+The Shawshank Redemption,GUARD,male,8,1,232,16
+The Shawshank Redemption,HADLEY,male,101,1,49,169
+The Shawshank Redemption,HAIG,male,10,1,205,9
+The Shawshank Redemption,HEYWOOD,male,91,1,54,166
+The Shawshank Redemption,JIGGER,male,10,1,206,10
+The Shawshank Redemption,JUDGE,male,8,1,233,12
+The Shawshank Redemption,MAIL CALLER,male,1,1,540,2
+The Shawshank Redemption,MAN #1,male,5,1,299,10
+The Shawshank Redemption,MAN #2,male,5,1,300,11
+The Shawshank Redemption,MAN #3,male,1,1,542,2
+The Shawshank Redemption,MAN #l,male,2,1,439,4
+The Shawshank Redemption,MAN,male,1,1,541,3
+The Shawshank Redemption,MANAGER,male,5,1,301,7
+The Shawshank Redemption,MERT,male,4,1,329,6
+The Shawshank Redemption,NED,male,13,1,175,22
+The Shawshank Redemption,NORTON,male,194,1,29,315
+The Shawshank Redemption,P.O.,male,7,1,252,11
+The Shawshank Redemption,PROJECTIONIST,male,2,1,440,4
+The Shawshank Redemption,RED,male,787,1,5,1373
+The Shawshank Redemption,ROOSTER,male,2,1,441,2
+The Shawshank Redemption,RORY,unclear,10,1,207,27
+The Shawshank Redemption,SKEET,male,3,1,375,2
+The Shawshank Redemption,SNOOZE,male,10,1,208,9
+The Shawshank Redemption,TELLER,male,2,1,442,3
+The Shawshank Redemption,THE BATTER,male,1,1,544,2
+The Shawshank Redemption,TOMMY,male,78,1,62,130
+The Shawshank Redemption,TOMNY,male,6,1,276,13
+The Shawshank Redemption,TOWER GUARD,male,3,1,376,5
+The Shawshank Redemption,TROUT,male,8,1,234,10
+The Shawshank Redemption,TYRELL,male,5,1,302,12
+The Shawshank Redemption,VARIOUS VOICES,unclear,8,1,235,18
+The Shawshank Redemption,VOICE,unclear,12,1,186,21
+The Shawshank Redemption,VOICES,unclear,2,1,443,8
+The Shawshank Redemption,WILEY,male,9,1,221,7
+The Shawshank Redemption,WOMAN REPORTER,female,11,1,198,13
+The Shawshank Redemption,WOMAN,female,9,1,222,16
+The Shawshank Redemption,YOUNGBLOOD,male,2,1,444,3

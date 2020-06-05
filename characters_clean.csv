@@ -1,0 +1,545 @@
+title,speaker,line_count,gender,accuracy
+Forrest Gump,1ST PLAYER,1,male,0
+Forrest Gump,1ST REPORTER,1,male,0
+Forrest Gump,1ST SOLDIER,2,male,0
+Forrest Gump,2ND PLAYER,1,male,0
+Forrest Gump,2ND REPORTER,2,male,0
+Forrest Gump,2ND SOLDIER,1,male,0
+Silence of the Lambs,2ND TV ANCHOR,5,unclear,83
+Forrest Gump,2ND WOUNDED SOLDIER,2,male,82
+Forrest Gump,3RD PLAYER,1,male,0
+Forrest Gump,3RD REPORTER,2,male,0
+Silence of the Lambs,A COP,1,male,87
+Forrest Gump,ABBIE HOFFMAN,19,female,98
+One Flew Over the Cuckoo's Nest,ACUTES,18,unclear,0
+The Matrix,AGENT BROWN,11,male,0
+The Matrix,AGENT JONES,18,male,91
+The Matrix,AGENT SMITH,191,male,90
+Forrest Gump,AGING HIPPIE,11,male,67
+One Flew Over the Cuckoo's Nest,AIDE,4,female,100
+Fight Club,ALL SPACE MONKEYS,3,male,83
+Forrest Gump,ANCHORMAN,32,male,100
+The Shawshank Redemption,ANDY,451,male,95
+Fight Club,ANGEL FACE,8,male,71
+Forrest Gump,ANNOUNCER,14,unclear,75
+Seven,ANOTHER COP,1,male,87
+Fight Club,ANOTHER SPACE MONKEY,3,male,0
+The Matrix,ANTHONY,13,male,99
+The Matrix,APOC,11,male,100
+Godfather,APPOLONIA,5,female,100
+Silence of the Lambs,ARDELIA,42,female,97
+Inception,ARIADNE,284,female,97
+Forrest Gump,ARMY BUS DRIVER,5,male,81
+Inception,ARTHUR,256,male,99
+Forrest Gump,ASSISTANT COACH,2,male,0
+Silence of the Lambs,ATTENDANT,6,male,0
+One Flew Over the Cuckoo's Nest,ATTENDANT,1,unclear,0
+Inception,ATTENDANT,3,unclear,0
+Fight Club,ATTENDANT,2,female,0
+Fight Club,BALD DETECTIVE,4,male,88
+Fight Club,BALDY,4,male,96
+One Flew Over the Cuckoo's Nest,BANCINI,16,male,0
+Fight Club,BANDAGED PROPRIETOR,9,unclear,0
+Seven,BARKER,4,male,80
+Silence of the Lambs,BARNEY,6,male,97
+Fight Club,BARTENDER,2,male,96
+Godfather,BARZINI,26,male,100
+Seven,BEARDSLEY,13,male,75
+Forrest Gump,BERT,3,male,98
+The Matrix,BIG COP,4,male,95
+One Flew Over the Cuckoo's Nest,BIG NURSE,327,female,95
+One Flew Over the Cuckoo's Nest,BILLY,102,male,97
+Forrest Gump,BILLY,6,male,97
+Seven,BLACK COP,1,male,87
+Forrest Gump,BLACK PANTHER,1,male,56
+Forrest Gump,BLACK WOMAN,3,female,
+The Shawshank Redemption,BLATCH,15,male,75
+Seven,BLEEKER,50,unclear,0
+Seven,BLOND COP,1,male,87
+Inception,BLONDE,6,female,86
+Fight Club,BOB,33,male,97
+The Shawshank Redemption,BOB,3,male,97
+Forrest Gump,BOB HOPE,2,male,100
+The Shawshank Redemption,BOGS,19,male,88
+Godfather,BONASERA,60,male,50
+Fight Club,BOSS,31,male,100
+The Matrix,BOY,2,male,
+Forrest Gump,BOY,3,male,
+Forrest Gump,BOY #1,3,male,
+Forrest Gump,BOY #2,7,male,
+Forrest Gump,BOY #3,4,male,
+Silence of the Lambs,BOYLE,12,male,
+Pulp Fiction,BRETT,32,male,98
+Silence of the Lambs,BRIGHAM,36,male,98
+One Flew Over the Cuckoo's Nest,BROMDEN,12,male,75
+The Shawshank Redemption,BROOKS,94,male,97
+Inception,BROWNING,67,male,83
+Fight Club,BRUISED MAN #1,1,male,
+Fight Club,BRUISED MAN #2,2,male,
+Fight Club,BRUISED PATRON #1,3,male,67
+Fight Club,BRUISED PATRON #2,2,male,67
+Fight Club,BRUISED PATRON 12,1,male,67
+Godfather,BRUNO,1,male,99
+Forrest Gump,BUBBA,84,male,92
+Forrest Gump,BUBBA & FORREST,1,unclear,100
+Forrest Gump,BUBBA AND FORREST,1,unclear,
+Pulp Fiction,BUDDY,8,male,100
+Silence of the Lambs,BURKE,16,male,91
+Silence of the Lambs,BURROUGHS,2,male,100
+Forrest Gump,BUS DRIVER,3,male,100
+Fight Club,BUSINESS WOMAN,4,female,
+Pulp Fiction,BUTCH,250,male,97
+Godfather,BUTTON MAN,3,male,
+Forrest Gump,CAB DRIVER,1,male,93
+Inception,CAB DRIVER,2,male,93
+The Matrix,CABLE,6,male,100
+Seven,CALIFORNIA,28,male,68
+Godfather,CALO,9,male,92
+One Flew Over the Cuckoo's Nest,CANDY,26,female,100
+One Flew Over the Cuckoo's Nest,CANDY AND ROSE,1,unclear,
+Pulp Fiction,CAPT. KOONS,81,male,67
+Seven,CAPTAIN,85,male,100
+Forrest Gump,CARLA,18,female,98
+Godfather,CARLO,25,male,99
+Silence of the Lambs,CATHERINE,51,female,98
+The Shawshank Redemption,CHAPLAIN,3,unclear,83
+One Flew Over the Cuckoo's Nest,CHESWICK,40,male,0
+One Flew Over the Cuckoo's Nest,CHESWTCK,4,male,0
+Forrest Gump,CHET HUNTLEY,15,male,98
+Inception,CHILDRENS,2,unclear,57
+Silence of the Lambs,CHILTON,132,male,94
+Fight Club,CHLOE,13,female,98
+Seven,CHRIS,2,male,93
+Silence of the Lambs,CLARICE,565,female,98
+Godfather,CLEMENZA,144,male,78
+Seven,CLERK,1,unclear,0
+Fight Club,CLERK,1,unclear,0
+Forrest Gump,CLEVELAND,2,male,96
+Inception,COBB,989,male,74
+Silence of the Lambs,CODY,1,male,96
+Fight Club,COMMISSIONER JACOBS,5,male,79
+The Shawshank Redemption,CON,3,male,69
+Godfather,CONNIE,55,female,96
+Godfather,COP,1,male,87
+The Matrix,COP,4,male,87
+Seven,COP,4,male,87
+Fight Club,COP,3,male,87
+The Matrix,COPS,1,unclear,89
+Silence of the Lambs,CRAWFORD,400,male,95
+Seven,CRAZED MAN,15,male,
+Forrest Gump,CROWD,8,unclear,0
+The Matrix,CYPHER,147,male,95
+The Shawshank Redemption,D.A.,92,male,75
+Forrest Gump,DALLAS,1,male,79
+Seven,DARIO,1,male,99
+Silence of the Lambs,DARK FIGURE,1,unclear,0
+Seven,DAVIS,10,male,98
+Forrest Gump,DEAN,2,male,98
+The Shawshank Redemption,DEKINS,7,male,100
+One Flew Over the Cuckoo's Nest,DEPUTY SHERIFF,3,male,96
+Fight Club,DESK CLERK,5,female,0
+Godfather,DETECTIVE,3,unclear,0
+Seven,DETECTIVE,7,unclear,0
+Fight Club,DETECTIVE STERN,30,male,50
+Forrest Gump,DICK CAVETT,6,male,98
+Forrest Gump,DICK CLARK,12,male,98
+Fight Club,DIFFERENT VOICE,1,unclear,0
+Silence of the Lambs,DIRECTOR BURKE,17,male,91
+Forrest Gump,DJ,20,male,94
+Forrest Gump,DOCTOR,12,unclear,0
+The Shawshank Redemption,DOCTOR,1,unclear,0
+One Flew Over the Cuckoo's Nest,DOCTOR,5,male,0
+Godfather,DON CORLEONE,370,male,96
+Godfather,DON TOMMASSINO,32,male,98
+Godfather,DON ZALUCHI,27,male,98
+Fight Club,DOORMAN,10,male,100
+The Matrix,DOZER,6,male,98
+Silence of the Lambs,DR. AKIN,6,male,96
+Silence of the Lambs,DR. DANIELSON,22,unclear,99
+Silence of the Lambs,DR. LECTER,423,male,87
+Forrest Gump,DRILL SERGEANT,25,male,96
+Godfather,DRIVER,3,male,0
+Forrest Gump,DRIVER,2,unclear,0
+The Matrix,DUJOUR,5,female,50
+The Shawshank Redemption,DUTY GUARD,1,male,0
+Inception,EAMES,172,male,100
+Forrest Gump,EARL,3,male,99
+Pulp Fiction,ED SULLIVAN,17,male,99
+Inception,ELDERLY BALD MAN,4,male,
+The Shawshank Redemption,ELDERLY GUARD,2,male,0
+Inception,ELDERLY JAPANESE MAN,9,male,
+Forrest Gump,ELDERLY WOMAN,11,female,
+Forrest Gump,ELVIS,16,male,98
+Forrest Gump,ELVIS PRESLEY,3,male,92
+Forrest Gump,EMCEE,8,male,83
+Pulp Fiction,ENGLISH DAVE,18,male,99
+Godfather,ENZO,6,male,99
+The Shawshank Redemption,ERNIE,4,male,91
+Forrest Gump,ERNIE,7,male,91
+Pulp Fiction,ESMARELDA,30,female,100
+Fight Club,EVERYONE,2,unclear,0
+Pulp Fiction,FABIENNE,143,female,98
+Godfather,FABRIZZIO,42,male,99
+The Shawshank Redemption,FAT-ASS,5,male,78
+Seven,FAT MAN,2,male,
+Fight Club,FAT MAN,3,male,
+Inception,FATHER,5,male,0
+The Matrix,FEDEX,1,male,94
+Seven,FEMALE COP,2,female,100
+The Shawshank Redemption,FEMALE TELLER,1,female,100
+Seven,FIRST ATTENDANT,2,unclear,0
+Fight Club,FIRST MAN,1,male,
+Seven,FIRST THUG,3,male,93
+Inception,FISCHER,104,male,70
+Fight Club,FLAT-TOP,5,male,89
+Fight Club,FLAT-TOP DETECTIVE,2,unclear,0
+Inception,FLIGHT ATTENDANT,6,female,75
+The Shawshank Redemption,FLOYD,19,male,99
+Forrest Gump,FOOTBALL COACH,9,male,0
+Silence of the Lambs,FOREMAN,7,male,100
+Seven,FORENSIC,4,male,86
+Forrest Gump,FORREST,984,male,100
+Forrest Gump,FORREST & RECRUITS,1,unclear,100
+Forrest Gump,FORREST JR.,9,male,100
+Pulp Fiction,FOURTH MAN,2,male,
+Fight Club,FRECKLED SPACE MONKEY,7,male,67
+Godfather,FREDO,31,male,97
+One Flew Over the Cuckoo's Nest,FREDRICKSON,29,male,100
+The Matrix,FRIEND #1,1,unclear,0
+Pulp Fiction,GAWKER #1,1,female,0
+Pulp Fiction,GAWKER #2,5,female,0
+Godfather,GENCO,15,male,96
+Godfather,GIRL,6,female,
+Forrest Gump,GIRL,2,female,
+The Matrix,GIZMO,30,unclear,79
+Fight Club,GOATEED MAN,1,male,
+Forrest Gump,GOVERNOR WALLACE,15,male,99
+Inception,GRANDMA,1,female,95
+The Shawshank Redemption,GUARD,8,male,0
+The Shawshank Redemption,HADLEY,101,male,99
+Godfather,HAGEN,261,male,97
+The Shawshank Redemption,HAIG,10,male,97
+One Flew Over the Cuckoo's Nest,HARDING,168,male,94
+One Flew Over the Cuckoo's Nest,HARDING AND CHESWICK,1,unclear,
+Fight Club,HARSH VOICE,1,male,100
+The Shawshank Redemption,HEYWOOD,91,male,89
+Forrest Gump,HIGH SCHOOL COACH,2,male,0
+Forrest Gump,HILARY,19,female,80
+Pulp Fiction,HONEY BUNNY,18,female,100
+Silence of the Lambs,INSTRUCTOR,14,male,0
+Fight Club,INTERN,9,male,67
+Fight Club,IRVINE,1,male,88
+Forrest Gump,ISABEL,4,female,98
+Fight Club,JACK,1189,male,97
+Fight Club,JACOBS,1,male,79
+Silence of the Lambs,JACOBS,2,female,79
+Inception,JAMES,5,male,99
+Forrest Gump,JENNY,198,female,98
+Forrest Gump,JENNY'S DAD,7,male,98
+The Shawshank Redemption,JIGGER,10,male,85
+Pulp Fiction,JIMMIE,72,male,99
+Pulp Fiction,JODY,39,female,59
+Seven,JOHN,5,male,99
+Seven,JOHN DOE,118,male,99
+Forrest Gump,JOHN LENNON,4,male,98
+Godfather,JOHNNY,20,male,99
+The Shawshank Redemption,JUDGE,8,male,100
+Pulp Fiction,JULES,594,male,86
+Forrest Gump,KATZENBACH,10,male,75
+Godfather,KAY,92,female,54
+Fight Club,KITCHEN WORKERS,2,unclear,0
+Pulp Fiction,KLONDIKE,1,male,100
+Silence of the Lambs,KRENDLER,42,male,0
+Silence of the Lambs,LAMAR,17,male,98
+Godfather,LAMPONE,3,male,57
+Pulp Fiction,LANCE,122,male,99
+Pulp Fiction,LANCE AND VINCENT,1,unclear,
+Inception,LAWYER,3,male,0
+Fight Club,LEADER,41,female,0
+Forrest Gump,LENORE,18,female,97
+The Matrix,LIEUTENANT,8,male,83
+Forrest Gump,LITTLE BOY,2,male,
+Inception,LITTLE GIRL,2,female,
+Pulp Fiction,LOOKY-LOO WOMAN,1,female,
+Fight Club,LOU,17,male,61
+Forrest Gump,LOUISE,4,female,97
+Forrest Gump,LT. DAN,215,male,97
+Godfather,LUCA,13,male,98
+Godfather,LUCY,1,female,98
+Forrest Gump,LYNN MARIE,6,female,100
+The Shawshank Redemption,MAIL CALLER,1,male,67
+Inception,MAL,137,female,74
+Forrest Gump,MALE NURSE,2,male,100
+Godfather,MAMA,25,female,70
+Forrest Gump,MAN,11,male,
+One Flew Over the Cuckoo's Nest,MAN,3,male,
+The Shawshank Redemption,MAN,1,male,
+Fight Club,MAN,1,male,
+Silence of the Lambs,MAN,6,male,
+Godfather,MAN,6,male,
+The Matrix,MAN,4,male,
+Seven,MAN,12,male,
+Forrest Gump,MAN #1,1,male,
+The Shawshank Redemption,MAN #1,5,male,
+Forrest Gump,MAN #2,2,male,
+The Shawshank Redemption,MAN #2,5,male,
+Godfather,MAN #2,2,male,
+Forrest Gump,MAN #3,2,male,
+The Shawshank Redemption,MAN #3,1,male,
+Forrest Gump,MAN #5 :,3,male,
+The Shawshank Redemption,MAN #l,2,male,
+The Shawshank Redemption,MAN g2,1,male,
+Forrest Gump,MAN WITH CANE,1,male,
+The Shawshank Redemption,MANAGER,5,male,0
+Pulp Fiction,MANAGER,13,unclear,0
+Forrest Gump,MARGO,4,female,94
+Fight Club,MARLA,207,female,99
+Pulp Fiction,MARSELLUS,80,male,87
+One Flew Over the Cuckoo's Nest,MARTINI,41,male,67
+One Flew Over the Cuckoo's Nest,MARTINI AND SCANLON,2,unclear,
+Pulp Fiction,MARVIN,2,male,99
+Forrest Gump,MASAI,22,unclear,93
+Pulp Fiction,MAYNARD,35,male,93
+Godfather,MCCLUSKEY,29,male,100
+One Flew Over the Cuckoo's Nest,MCMURPHY,817,male,100
+Fight Club,MECHANIC,14,male,0
+Forrest Gump,MEN,1,unclear,84
+The Shawshank Redemption,MERT,4,male,97
+Pulp Fiction,MIA,193,female,97
+Godfather,MICHAEL,460,male,99
+Silence of the Lambs,MIGGS,2,male,82
+Inception,MILES,34,male,92
+Forrest Gump,MILITARY RECRUITER,2,male,67
+One Flew Over the Cuckoo's Nest,MILLER,2,male,89
+Seven,MILLS,560,male,74
+Forrest Gump,MINISTER,5,unclear,0
+One Flew Over the Cuckoo's Nest,MISS PILBOW,17,female,0
+Godfather,MOE,36,male,86
+The Matrix,MOJO,6,unclear,85
+The Matrix,MOMMY,3,female,57
+The Matrix,MORPHEUS,412,male,97
+Pulp Fiction,MOTHER,6,female,0
+The Matrix,MOUSE,12,male,0
+Seven,MOVER,2,male,75
+Silence of the Lambs,MR. BIMMEL,11,male,50
+Silence of the Lambs,MR. GUMB,49,male,67
+Silence of the Lambs,MR. YOW,19,male,73
+Seven,MRS GOLD,9,female,100
+Forrest Gump,MRS. BLUE,3,female,100
+Godfather,MRS. BONASERA,1,female,50
+Forrest Gump,MRS. GUMP,91,female,97
+Silence of the Lambs,MURRAY,10,male,97
+Inception,NASH,7,male,95
+Godfather,NAZORINE,13,male,0
+The Shawshank Redemption,NED,13,male,93
+Forrest Gump,NEIL ARMSTRONG,4,male,100
+The Matrix,NEO,252,male,85
+Godfather,NERI,9,male,50
+Forrest Gump,NEWSCASTER,18,male,0
+Forrest Gump,NEWSMAN,19,male,75
+One Flew Over the Cuckoo's Nest,NIGHT SUPERVISOR,13,unclear,0
+The Shawshank Redemption,NORTON,194,male,97
+Seven,NUN,2,female,66
+Forrest Gump,NURSE,1,unclear,0
+One Flew Over the Cuckoo's Nest,NURSE,1,female,0
+Godfather,NURSE,13,female,0
+One Flew Over the Cuckoo's Nest,NURSE ITSU,10,female,100
+One Flew Over the Cuckoo's Nest,NURSE PILBOW,13,female,0
+Seven,O'NEILL,7,male,83
+Godfather,OFFICE MANAGER,1,unclear,0
+Seven,OFFICER,7,male,0
+Forrest Gump,OFFICER,8,male,0
+Forrest Gump,OLD CRONY,1,male,91
+Seven,OLD MAN,1,male,
+The Matrix,OLD MAN,1,male,
+Forrest Gump,OLD SHRIMPER,6,male,91
+One Flew Over the Cuckoo's Nest,OLD VEGETABLE,1,male,91
+Forrest Gump,OLDER BOY,1,male,
+Forrest Gump,OLDER BOY #1,7,male,
+Forrest Gump,OLDER BOY #2,2,male,
+Seven,ONE COP,2,male,87
+Seven,ONE FORENSIC,3,male,86
+Fight Club,OPPONENT,1,unclear,0
+The Matrix,ORACLE,39,female,84
+Silence of the Lambs,ORDERLY,1,male,0
+Fight Club,OTHERS TOGETHER,1,unclear,0
+The Shawshank Redemption,P.O.,7,male,100
+One Flew Over the Cuckoo's Nest,PATIENT,2,unclear,0
+One Flew Over the Cuckoo's Nest,PATIENTS,3,unclear,75
+Pulp Fiction,PATRON,1,unclear,0
+Forrest Gump,PATRONS,4,unclear,0
+Godfather,PAULIE,19,male,81
+Pulp Fiction,PEDESTRIAN,1,female,75
+Silence of the Lambs,PEMBRY,16,male,0
+Fight Club,PENGUIN,1,unclear,50
+Silence of the Lambs,PETERSON,7,unclear,98
+Inception,PHILIPPA,1,female,98
+Seven,PHOTOGRAPHER,1,unclear,0
+One Flew Over the Cuckoo's Nest,PHOTOGRAPHER,1,unclear,0
+Silence of the Lambs,PILCHER,19,male,0
+Seven,PILOT,3,male,100
+The Matrix,PILOT,1,male,100
+Seven,POLICEMAN,1,male,0
+Forrest Gump,POLICEMAN,1,male,0
+Pulp Fiction,PREACHER,1,male,84
+Seven,PREACHER,6,male,84
+Forrest Gump,PRESIDENT JOHNSON,7,male,96
+Forrest Gump,PRESIDENT KENNEDY,8,male,89
+Forrest Gump,PRESIDENT NIXON,16,male,98
+Godfather,PRIEST,11,male,0
+The Matrix,PRIESTESS,5,female,100
+Forrest Gump,PRINCIPAL,16,male,0
+The Shawshank Redemption,PROJECTIONIST,2,male,0
+Pulp Fiction,PUMPKIN,49,male,65
+The Matrix,RADIO,2,unclear,0
+Silence of the Lambs,RADIO VOICE,3,unclear,0
+Pulp Fiction,RAQUEL,9,female,98
+Fight Club,RAYMOND,11,male,99
+Forrest Gump,RECRUIT #1,1,unclear,0
+Forrest Gump,RECRUIT #2,1,unclear,0
+The Shawshank Redemption,RED,787,male,79
+Fight Club,REDHEAD,7,unclear,67
+Fight Club,REDHEAD DETECTIVE,1,unclear,67
+Fight Club,REPORTER,4,female,0
+Seven,REPORTER,3,female,0
+Forrest Gump,REPORTER,1,male,0
+Forrest Gump,REVEREND,1,male,77
+The Matrix,REX,1,male,99
+The Matrix,RHINEHEART,18,male,100
+Fight Club,RICKY,16,male,98
+Fight Club,RICKY AND MECHANIC,3,male,
+Silence of the Lambs,RODEN,20,male,94
+Pulp Fiction,ROGER,1,male,99
+The Shawshank Redemption,ROOSTER,2,male,91
+The Shawshank Redemption,RORY,10,unclear,94
+One Flew Over the Cuckoo's Nest,ROSE,60,female,100
+Forrest Gump,RUBEN,3,male,99
+One Flew Over the Cuckoo's Nest,RUCKLY,1,male,0
+Inception,SAITO,150,male,79
+Godfather,SANDRA,5,female,98
+Seven,SANTIAGO,26,male,99
+Seven,SARA,2,female,98
+Seven,SARAH,5,female,98
+One Flew Over the Cuckoo's Nest,SCANLON,26,male,0
+Forrest Gump,SCHOOLD BUS DRIVER,2,female,81
+The Matrix,SCREEN,34,unclear,0
+Seven,SECOND ATTENDANT,2,unclear,0
+Inception,SECOND BUSINESSMAN,1,male,0
+One Flew Over the Cuckoo's Nest,SECOND DEPUTY,2,unclear,0
+Fight Club,SECOND MAN,1,male,
+Seven,SECOND THUG,2,male,93
+One Flew Over the Cuckoo's Nest,SECOND VOICE,3,unclear,0
+Inception,SECURITY GUARD,2,male,75
+Forrest Gump,SECURITY GUARD,4,male,75
+Fight Club,SECURITY TFM,18,male,73
+One Flew Over the Cuckoo's Nest,SEFELT,43,male,0
+Fight Club,SEMINARIAN,1,unclear,0
+Silence of the Lambs,SEN. MARTIN,35,female,98
+The Matrix,SERGEANT,6,male,96
+Seven,SERGEANT,1,male,96
+One Flew Over the Cuckoo's Nest,SEVERAL ACUTES,1,unclear,0
+Forrest Gump,SGT. SIMS,5,male,75
+Silence of the Lambs,SGT. TATE,49,male,93
+One Flew Over the Cuckoo's Nest,SHANKLE,5,unclear,67
+Silence of the Lambs,SHERIFF,12,male,96
+Fight Club,SHORT SPACE MONKEY,2,male,0
+The Shawshank Redemption,SKEET,3,male,91
+Seven,SKETCH ARTIST,4,female,82
+The Shawshank Redemption,SNOOZE,10,male,94
+Forrest Gump,SOLDIER,13,male,0
+Forrest Gump,SOLDIER WITH BIG MACHINE GUN,1,male,95
+Godfather,SOLLOZZO,112,male,75
+Seven,SOMERSET,689,male,67
+Forrest Gump,SONG,15,male,100
+Godfather,SONNY,233,male,96
+Fight Club,SPEAKER,8,unclear,0
+One Flew Over the Cuckoo's Nest,SPIVEY,90,male,50
+The Matrix,SPOON BOY,7,male,
+Pulp Fiction,SPORTSCASTER #1,10,male,0
+Pulp Fiction,SPORTSCASTER #2,12,male,0
+Silence of the Lambs,STACY,26,female,92
+Fight Club,STERN,4,male,50
+Seven,STONE,11,male,100
+Seven,STRANGE MAN,5,male,
+Forrest Gump,STRONGARM,9,unclear,50
+Forrest Gump,SUSAN,1,female,98
+Seven,SWARR,27,male,75
+Silence of the Lambs,SWAT COMMANDER,3,male,93
+The Matrix,SWITCH,3,female,0
+One Flew Over the Cuckoo's Nest,TABER,42,male,88
+Seven,TALBOT,16,male,78
+The Matrix,TALL EMPLOYEE,3,unclear,0
+Fight Club,TALL SPACE MONKEY,1,male,0
+The Matrix,TANK,124,male,100
+Godfather,TATTAGLIA,7,male,75
+Forrest Gump,TAXI DRIVER #1,1,male,93
+Forrest Gump,TAXI DRIVER #2,2,male,93
+Seven,TAYLOR,17,male,55
+Seven,TECHNICIAN,3,unclear,0
+Fight Club,TECHNICIAN #1,6,unclear,0
+Fight Club,TECHNICIAN #2,3,unclear,0
+The Shawshank Redemption,TELLER,2,male,91
+Godfather,TESSIO,51,male,89
+The Shawshank Redemption,THE BATTER,1,male,87
+Pulp Fiction,THE GIMP,1,male,87
+Pulp Fiction,THE WOLF,183,male,96
+Inception,THIN MAN,2,male,
+One Flew Over the Cuckoo's Nest,THREE ATTENDANTS,1,unclear,0
+Inception,TODASHI,1,unclear,0
+The Shawshank Redemption,TOMMY,78,male,98
+The Shawshank Redemption,TOMNY,6,male,90
+The Shawshank Redemption,TOWER GUARD,3,male,0
+Seven,TRACY,125,female,91
+The Matrix,TRINITY,204,female,99
+The Shawshank Redemption,TROUT,8,male,88
+Pulp Fiction,TRUDI,4,female,96
+One Flew Over the Cuckoo's Nest,TURKLE,84,male,75
+Silence of the Lambs,TV ANCHOR,22,unclear,83
+Fight Club,TYLER,652,male,97
+The Shawshank Redemption,TYRELL,5,male,100
+Seven,UNIFORMED COP,1,male,87
+Seven,VAGRANT,2,female,97
+Fight Club,VALET,2,male,71
+The Shawshank Redemption,VARIOUS VOICES,8,unclear,57
+Forrest Gump,VET,6,male,70
+Pulp Fiction,VINCENT,496,male,99
+Godfather,VITELLI,15,male,67
+Fight Club,VOICE,11,unclear,0
+One Flew Over the Cuckoo's Nest,VOICE,1,unclear,0
+The Matrix,VOICE,3,unclear,0
+The Shawshank Redemption,VOICE,12,unclear,0
+Godfather,VOICE,9,unclear,0
+The Shawshank Redemption,VOICES,2,unclear,57
+Fight Club,WAITER,5,male,100
+Pulp Fiction,WAITRESS,2,female,0
+Fight Club,WALTER,8,male,97
+One Flew Over the Cuckoo's Nest,WARREN,3,male,99
+One Flew Over the Cuckoo's Nest,WASHINGTON,38,male,99
+One Flew Over the Cuckoo's Nest,WASHINGTON'S POV,2,male,99
+One Flew Over the Cuckoo's Nest,WASHINGTON AND WARREN,2,unclear,
+Forrest Gump,WESLEY,11,male,99
+Forrest Gump,WHITE WOMAN,3,female,
+Forrest Gump,WILD-EYED MAN,6,male,
+Seven,WILD BILL,12,male,100
+The Shawshank Redemption,WILEY,9,male,93
+Seven,WILLIAM,45,male,99
+Pulp Fiction,WINSTON,19,male,99
+Godfather,WOLTZ,53,unclear,0
+Seven,WOMAN,4,female,
+The Matrix,WOMAN,3,female,
+The Shawshank Redemption,WOMAN,9,female,
+Pulp Fiction,WOMAN,1,female,
+Godfather,WOMAN,2,female,
+The Shawshank Redemption,WOMAN REPORTER,11,female,
+Seven,WORKMAN,1,male,88
+Fight Club,WOUNDED BARTENDER,9,male,96
+Pulp Fiction,YOLANDA,5,female,98
+Forrest Gump,YOUNG HIPPIE,3,male,100
+Forrest Gump,YOUNG MAN,12,male,
+Pulp Fiction,YOUNG MAN,112,male,
+Forrest Gump,YOUNG PRIVATE,2,male,100
+Pulp Fiction,YOUNG WOMAN,33,female,
+The Shawshank Redemption,YOUNGBLOOD,2,male,91
+Fight Club,YUPPIE,6,male,82
+Inception,YUSUF,88,male,97
+Pulp Fiction,ZED,13,male,89
