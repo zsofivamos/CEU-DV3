@@ -24,6 +24,9 @@ server <- function(input, output) {
   
   ## display score  
   output$imdb_score <- renderInfoBox({
+    validate(
+      need(!is.na(input$title), "Fetching data, one sec!")
+    )
     infoBox("IMDB Score", imdb_score(), icon = icon("star"), color = "purple", fill = TRUE)
   })
   
@@ -34,18 +37,31 @@ server <- function(input, output) {
   
   ## display year
   output$movie_year <- renderInfoBox({
+    validate(
+      need(!is.na(input$title), "Fetching data, one sec!")
+    )
     infoBox("Year", movie_year(), icon = icon("calendar"), color = "purple", fill = TRUE)
   })
   
   ## display the dataframe
   output$my_data <- DT::renderDataTable({
+    
+    validate(
+      need(!is.na(input$title), "Fetching data, one sec!")
+    )
+    
     reactive_df() %>% select( -title)
   })
   
   ## top 15 words plot
-  output$word_plot <- renderPlot(
+  output$word_plot <- renderPlot({
+    
+    validate(
+      need(!is.na(input$title), "Fetching data, one sec!")
+    )
+    
     plot_popular_words(reactive_df())
-  )
+  })
   
   ## create slider to filter word count
   output$word_count <- renderUI({
@@ -59,10 +75,20 @@ server <- function(input, output) {
   })
   
   output$plotly_plot <- renderPlotly({
+    
+    validate(
+      need(!is.na(input$slider), "Fetching data, one sec!")
+    )
+    
     create_plotly(character_df())
   })
   
   output$gender_plot <- renderPlot({
+    
+    validate(
+      need(!is.na(input$slider), "Fetching data, one sec!")
+    )
+    
     plot_gender_count(character_df())
   })
   
@@ -71,19 +97,38 @@ server <- function(input, output) {
   })
   
   output$percentage <- renderValueBox({
+
+    validate(
+      need(!is.na(input$slider), "Fetching data, one sec!")
+    )
     valueBox(percentage_reactive(), "of characters captured", color = "purple")
   })
   
-  output$search_box <- renderUI(
+  output$search_box <- renderUI({
     textInput('search', label = "Search for a word", value = "word", placeholder = "word")
-  )
+  })
   
   output$search_plot <- renderPlot({
-    count_per_movie(input$search)
+    
+    validate(
+      need(
+        !is.na(input$search), "No word detected by the word detectives :("
+      )
+    )
+    
+        count_per_movie(input$search)
   })
   
   output$used_by_plot <- renderPlot({
-    said_by_character(input$search)
+    
+    validate(
+      need(
+        !is.na(input$search), "No word detected by the word detectives :("
+      )
+    )
+    
+ said_by_character(input$search)
+
   })
   
   

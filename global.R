@@ -2,7 +2,6 @@ library(dplyr)
 library(tidyverse)
 library(plotly)
 library(data.table)
-library(tidytext)
 library(DT)
 
 words_df <-read_csv("word_df.csv") %>% 
@@ -165,7 +164,7 @@ return(per_movie_plot)
 
 }
 
-### USED BY
+### USED BY -----------------------------------------------------------------------------------------------------
 ## this function returns the characters that used the searched term
 ## if there are more than 15 I'll retur the first 15 only
 
@@ -175,7 +174,7 @@ said_by_character <- function(word_input){
     filter(word == word_input) %>% 
     group_by(title, speaker) %>% 
     count() 
-  
+
   if (count(character_plot_df) < 15){
     
     character_plot_df <- character_plot_df
