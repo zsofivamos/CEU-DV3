@@ -124,8 +124,7 @@ server <- function(input, output) {
     validate(
       need(
         !is.na(input$search), "No word detected by the word detectives :("
-      )
-    )
+      ))
     
  said_by_character(input$search)
 
