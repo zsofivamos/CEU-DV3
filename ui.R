@@ -1,7 +1,6 @@
 library(shiny)
 library(shinydashboard)
 library(data.table)
-library(shinythemes)
 
 source("global.R")
 
