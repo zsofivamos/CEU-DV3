@@ -74,8 +74,11 @@ server <- function(input, output) {
     return(df)
   })
   
+  
+  ## create interactive plotly
   output$plotly_plot <- renderPlotly({
     
+    # add buffer message while data is loading
     validate(
       need(!is.na(input$slider), "Fetching data, one sec!")
     )
@@ -83,8 +86,10 @@ server <- function(input, output) {
     create_plotly(character_df())
   })
   
+  ## create gender distribution chart
   output$gender_plot <- renderPlot({
     
+    # add buffer message while data is loading
     validate(
       need(!is.na(input$slider), "Fetching data, one sec!")
     )
@@ -92,44 +97,71 @@ server <- function(input, output) {
     plot_gender_count(character_df())
   })
   
+  ## calculate percentage of characters covered
   percentage_reactive <- reactive({
     get_percentage(character_df())
   })
   
+  ## display dynamic change in value box
   output$percentage <- renderValueBox({
 
+    # add buffer message while data is loading
     validate(
       need(!is.na(input$slider), "Fetching data, one sec!")
     )
     valueBox(percentage_reactive(), "of characters captured", color = "purple")
   })
   
+  ## add search box
   output$search_box <- renderUI({
     textInput('search', label = "Search for a word", value = "word", placeholder = "word")
   })
   
+  ## filter for movies the term appeared in
+  reactive_search_df <- reactive({
+    df <- filter_for_movie(input$search)
+    return(df)
+  })
+  
+  ## visualize them
   output$search_plot <- renderPlot({
     
+    # if no input is provided return error message
     validate(
       need(
         !is.na(input$search), "No word detected by the word detectives :("
       )
     )
     
-        count_per_movie(input$search)
+    # if the word isn't found return error message
+      validate(need(
+        try(nrow(reactive_search_df())>0), "Try again with something else"
+      ))
+    
+    count_per_movie(reactive_search_df())
+  })
+  
+  ## filter for characters that used the searched word
+  reactive_char_df <- reactive({
+    df <- filter_for_character(input$search)
+    return(df)
   })
   
   output$used_by_plot <- renderPlot({
     
+    # if no input is provided return error message
     validate(
       need(
         !is.na(input$search), "No word detected by the word detectives :("
       ))
     
- said_by_character(input$search)
+    # if the word isn't found return error message
+    validate(need(
+      try(nrow(reactive_char_df())>0), "Nobody uses words like that"
+    ))
+ 
+ said_by_character(reactive_char_df())
 
   })
-  
-  
   
 }

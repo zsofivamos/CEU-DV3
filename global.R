@@ -138,19 +138,22 @@ get_percentage <- function(df){
 
 word_search_df <- read_csv("word_search_df.csv")
 
+filter_for_movie <- function(word_input){
+  df <- word_search_df %>% 
+    filter(word == word_input) %>% 
+    group_by(title) %>% 
+    count()
+  return(df)
+}
 
-count_per_movie <- function(word_input){
+count_per_movie <- function(df){
 
-per_movie_plot <- word_search_df %>% 
-    filter(word == word_input) %>%
-    group_by(title) %>%
-    count() %>%
-    arrange(-n) %>%
+per_movie_plot <- df %>% 
     ggplot(aes(reorder(title,n), n)) +
     geom_col(show.legend = FALSE) +
     geom_text(aes(label = n), hjust = -0.6) +
     coord_flip() +
-    labs(title = paste0("Total appearances of the word '", word_input,"'"), x="", y = "")+
+    labs(title = "Total appearances of the word", x="", y = "")+
     theme_bw() +
     theme(panel.border = element_blank(),
           panel.grid = element_blank(),
@@ -168,23 +171,28 @@ return(per_movie_plot)
 ## this function returns the characters that used the searched term
 ## if there are more than 15 I'll retur the first 15 only
 
-said_by_character <- function(word_input){
+filter_for_character <- function(word_input){
   
   character_plot_df <- word_search_df %>% 
     filter(word == word_input) %>% 
     group_by(title, speaker) %>% 
     count() 
-
+  
   if (count(character_plot_df) < 15){
     
     character_plot_df <- character_plot_df
     
   } else {
     character_plot_df <- character_plot_df[1:15,]
-
+    
   }
   
-  character_plot <- character_plot_df %>% 
+  return(character_plot_df)
+}
+
+said_by_character <- function(df){
+  
+  character_plot <- df %>% 
     ggplot(aes(reorder(speaker, n), n, fill = title))+
     geom_col() +
     geom_text(aes(label = n), hjust = -0.6) +
