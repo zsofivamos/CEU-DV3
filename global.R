@@ -170,7 +170,7 @@ return(per_movie_plot)
 ### USED BY -----------------------------------------------------------------------------------------------------
 ## this function returns the characters that used the searched term
 ## if there are more than 15 I'll retur the first 15 only
-
+word_input <- "mister"
 filter_for_character <- function(word_input){
   
   character_plot_df <- word_search_df %>% 
@@ -178,7 +178,7 @@ filter_for_character <- function(word_input){
     group_by(title, speaker) %>% 
     count() 
   
-  if (count(character_plot_df) < 15){
+  if (nrow(character_plot_df) < 15){
     
     character_plot_df <- character_plot_df
     
