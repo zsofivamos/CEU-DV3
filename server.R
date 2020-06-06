@@ -135,7 +135,7 @@ server <- function(input, output) {
     
     # if the word isn't found return error message
       validate(need(
-        try(nrow(reactive_search_df())>0), "Try again with something else"
+        try(nrow(reactive_search_df())>0), "Are you sure that's a word?"
       ))
     
     count_per_movie(reactive_search_df())
@@ -157,7 +157,7 @@ server <- function(input, output) {
     
     # if the word isn't found return error message
     validate(need(
-      try(nrow(reactive_char_df())>0), "Nobody uses words like that"
+      try(nrow(reactive_char_df())>0), "No words found"
     ))
  
  said_by_character(reactive_char_df())
