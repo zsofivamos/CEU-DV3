@@ -5,7 +5,11 @@ library(data.table)
 source("global.R")
 
 ui <- dashboardPage(skin = "purple",
-  dashboardHeader(title = "Movie Scripts Dashboard", titleWidth = 350), 
+                    
+                    
+  dashboardHeader(title = "Movie Scripts Dashboard", titleWidth = 350,
+                  htmlOutput('google_analytics')),
+  
   dashboardSidebar(width = 350,
     sidebarMenu(
       menuItem("Movies", tabName = "movies", icon = icon("film")),

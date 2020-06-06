@@ -6,6 +6,10 @@ source("global.R")
 
 server <- function(input, output) {
   
+  output$google_analytics <- renderUI({
+    includeHTML("google_analytics.html")
+  })
+  
   ## create dropdown filter with titles
   output$movie_filter <- renderUI({
     selectInput('title', label = 'Choose a movie', choices = titles$title, multiple = FALSE)
